@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace Session1
 {
-    public partial class Form1 : Form
+    public partial class SponsorRegistration : Form
     {
-        public Form1()
+        public SponsorRegistration()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            SponsorRegistration sponsorRegistration = new SponsorRegistration();
-            sponsorRegistration.Show();
+            Close();
         }
     }
 }
