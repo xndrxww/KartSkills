@@ -12,9 +12,18 @@ namespace Session1
 {
     public partial class SponsorAccess : Form
     {
-        public SponsorAccess()
+        public SponsorAccess(string name = "", string sum = "")
         {
             InitializeComponent();
+            label4.Text = name;
+            label16.Text = sum;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SponsorRegistration sponsorRegistration = new SponsorRegistration();
+            sponsorRegistration.Show();
+            Close();
         }
     }
 }

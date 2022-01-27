@@ -12,6 +12,7 @@ namespace Session1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +22,12 @@ namespace Session1
         {
             SponsorRegistration sponsorRegistration = new SponsorRegistration();
             sponsorRegistration.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Information information = new Information();
+            information.Show();
         }
     }
 }

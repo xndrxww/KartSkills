@@ -30,9 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -41,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,6 +59,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 72);
             this.panel1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(232, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(311, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Москва, Россия 20 июня 2017";
             // 
             // label1
             // 
@@ -79,15 +89,15 @@
             this.panel2.Size = new System.Drawing.Size(800, 54);
             this.panel2.TabIndex = 1;
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(232, 42);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(311, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Москва, Россия 20 июня 2017";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(240, 18);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(303, 25);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "До начала события осталось";
             // 
             // pictureBox1
             // 
@@ -129,6 +139,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label3
             // 
@@ -169,16 +180,6 @@
             this.label6.Size = new System.Drawing.Size(107, 16);
             this.label6.TabIndex = 8;
             this.label6.Text = "Вход в систему";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(240, 18);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(303, 25);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "До начала события осталось";
             // 
             // Form1
             // 
