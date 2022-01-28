@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Session1
 {
-    public partial class Information : Form
+    public partial class Charity : Form
     {
-        public Information()
+        public Charity()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Charity charity = new Charity();
-            charity.Show();
         }
     }
 }
