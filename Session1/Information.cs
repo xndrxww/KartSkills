@@ -21,6 +21,7 @@ namespace Session1
         {
             Charity charity = new Charity();
             charity.Show();
+            Close();
         }
     }
 }

@@ -37,8 +37,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.emailText = new System.Windows.Forms.TextBox();
+            this.passwordText = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -134,19 +134,19 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Password";
             // 
-            // textBox1
+            // emailText
             // 
-            this.textBox1.Location = new System.Drawing.Point(298, 159);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 20);
-            this.textBox1.TabIndex = 9;
+            this.emailText.Location = new System.Drawing.Point(298, 159);
+            this.emailText.Name = "emailText";
+            this.emailText.Size = new System.Drawing.Size(191, 20);
+            this.emailText.TabIndex = 9;
             // 
-            // textBox2
+            // passwordText
             // 
-            this.textBox2.Location = new System.Drawing.Point(298, 205);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(191, 20);
-            this.textBox2.TabIndex = 10;
+            this.passwordText.Location = new System.Drawing.Point(298, 205);
+            this.passwordText.Name = "passwordText";
+            this.passwordText.Size = new System.Drawing.Size(191, 20);
+            this.passwordText.TabIndex = 10;
             // 
             // button2
             // 
@@ -156,6 +156,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -173,8 +174,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordText);
+            this.Controls.Add(this.emailText);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -202,8 +203,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox emailText;
+        private System.Windows.Forms.TextBox passwordText;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
     }

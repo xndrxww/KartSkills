@@ -58,6 +58,18 @@
     <Compile Include="Authhorization.Designer.cs">
       <DependentUpon>Authhorization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Charity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Charity.Designer.cs">
+      <DependentUpon>Charity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharityCustom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CharityCustom.Designer.cs">
+      <DependentUpon>CharityCustom.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContactInformation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +132,12 @@
     <EmbeddedResource Include="Authhorization.resx">
       <DependentUpon>Authhorization.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Charity.resx">
+      <DependentUpon>Charity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityCustom.resx">
+      <DependentUpon>CharityCustom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContactInformation.resx">
       <DependentUpon>ContactInformation.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +186,50 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CharityImages\arise-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\aves-do-brazil-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\clara-santos-oliveira-institute-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\conquer-cancer-brazil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\diabetes-brazil-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\heart-health-sao-paulo-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\human-rights-centre-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\oxfam-international-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\querstadtein-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\save-the-children-fund-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\stay-pumped-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\the-red-cross-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\upbeat-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharityImages\wwsm-rescue-logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

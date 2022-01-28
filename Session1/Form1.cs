@@ -29,5 +29,11 @@ namespace Session1
             Information information = new Information();
             information.Show();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Authhorization authhorization = new Authhorization();
+            authhorization.Show();
+        }
     }
 }
