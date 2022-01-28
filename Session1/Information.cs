@@ -23,5 +23,12 @@ namespace Session1
             charity.Show();
             Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            KartInformation kartInformation = new KartInformation();
+            kartInformation.Show();
+            Close();
+        }
     }
 }

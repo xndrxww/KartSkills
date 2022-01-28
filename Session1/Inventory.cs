@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Session1
 {
-    public partial class RacerChoose : Form
+    public partial class Inventory : Form
     {
-        public RacerChoose()
+        public Inventory()
         {
             InitializeComponent();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            RacerRegistration racerRegistration = new RacerRegistration();
-            racerRegistration.Show();
-            Close();
         }
     }
 }

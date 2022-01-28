@@ -16,5 +16,12 @@ namespace Session1
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Inventory inventory = new Inventory();
+            inventory.Show();
+            Close();
+        }
     }
 }

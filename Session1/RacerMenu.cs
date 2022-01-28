@@ -23,5 +23,19 @@ namespace Session1
             contactInformation.Show();
             Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RacerRegistration racerRegistration = new RacerRegistration();
+            racerRegistration.Show();
+            Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            EditProfile editProfile = new EditProfile();
+            editProfile.Show();
+            Close();
+        }
     }
 }
