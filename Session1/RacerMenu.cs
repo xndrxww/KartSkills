@@ -16,5 +16,12 @@ namespace Session1
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ContactInformation contactInformation = new ContactInformation();
+            contactInformation.Show();
+            Close();
+        }
     }
 }

@@ -35,5 +35,11 @@ namespace Session1
             Authhorization authhorization = new Authhorization();
             authhorization.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            RacerChoose racerChoose = new RacerChoose();
+            racerChoose.Show();
+        }
     }
 }
