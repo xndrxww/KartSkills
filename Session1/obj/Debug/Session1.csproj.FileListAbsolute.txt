@@ -10,7 +10,6 @@ C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.Coordina
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.Form1.resources
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.Information.resources
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.Properties.Resources.resources
-C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.RacerCheck.resources
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.RacerChoose.resources
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.RacerMenu.resources
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.SponsorAccess.resources
@@ -34,3 +33,9 @@ C:\Users\Андрей\source\repos\Session1\Session1\bin\Debug\CharityImages\the
 C:\Users\Андрей\source\repos\Session1\Session1\bin\Debug\CharityImages\upbeat-logo.png
 C:\Users\Андрей\source\repos\Session1\Session1\bin\Debug\CharityImages\wwsm-rescue-logo.png
 C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.csprojAssemblyReference.cache
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.EditProfile.resources
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.Inventory.resources
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.KartInformation.resources
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.MyResults.resources
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.RaceRegistration.resources
+C:\Users\Андрей\source\repos\Session1\Session1\obj\Debug\Session1.RacerRegistration.resources

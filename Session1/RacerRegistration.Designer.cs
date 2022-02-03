@@ -41,22 +41,22 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.emailText = new System.Windows.Forms.TextBox();
+            this.passwordText = new System.Windows.Forms.TextBox();
+            this.repeatPasswordText = new System.Windows.Forms.TextBox();
+            this.nameText = new System.Windows.Forms.TextBox();
+            this.surnameText = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.imageText = new System.Windows.Forms.TextBox();
+            this.chooseImageButton = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.birthdayText = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.countryBox = new System.Windows.Forms.ComboBox();
+            this.regButton = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.genderBox = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -191,40 +191,40 @@
             this.label10.TabIndex = 12;
             this.label10.Text = "Имя";
             // 
-            // textBox1
+            // emailText
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 127);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(174, 20);
-            this.textBox1.TabIndex = 15;
+            this.emailText.Location = new System.Drawing.Point(148, 127);
+            this.emailText.Name = "emailText";
+            this.emailText.Size = new System.Drawing.Size(174, 20);
+            this.emailText.TabIndex = 15;
             // 
-            // textBox2
+            // passwordText
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 20);
-            this.textBox2.TabIndex = 16;
+            this.passwordText.Location = new System.Drawing.Point(148, 160);
+            this.passwordText.Name = "passwordText";
+            this.passwordText.Size = new System.Drawing.Size(151, 20);
+            this.passwordText.TabIndex = 16;
             // 
-            // textBox3
+            // repeatPasswordText
             // 
-            this.textBox3.Location = new System.Drawing.Point(148, 189);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(151, 20);
-            this.textBox3.TabIndex = 17;
+            this.repeatPasswordText.Location = new System.Drawing.Point(148, 189);
+            this.repeatPasswordText.Name = "repeatPasswordText";
+            this.repeatPasswordText.Size = new System.Drawing.Size(151, 20);
+            this.repeatPasswordText.TabIndex = 17;
             // 
-            // textBox4
+            // nameText
             // 
-            this.textBox4.Location = new System.Drawing.Point(148, 219);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(151, 20);
-            this.textBox4.TabIndex = 18;
+            this.nameText.Location = new System.Drawing.Point(148, 219);
+            this.nameText.Name = "nameText";
+            this.nameText.Size = new System.Drawing.Size(151, 20);
+            this.nameText.TabIndex = 18;
             // 
-            // textBox5
+            // surnameText
             // 
-            this.textBox5.Location = new System.Drawing.Point(148, 249);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(151, 20);
-            this.textBox5.TabIndex = 19;
+            this.surnameText.Location = new System.Drawing.Point(148, 249);
+            this.surnameText.Name = "surnameText";
+            this.surnameText.Size = new System.Drawing.Size(151, 20);
+            this.surnameText.TabIndex = 19;
             // 
             // pictureBox1
             // 
@@ -244,21 +244,22 @@
             this.label11.TabIndex = 22;
             this.label11.Text = "Фото файл";
             // 
-            // textBox7
+            // imageText
             // 
-            this.textBox7.Location = new System.Drawing.Point(500, 264);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(111, 20);
-            this.textBox7.TabIndex = 23;
+            this.imageText.Location = new System.Drawing.Point(500, 264);
+            this.imageText.Name = "imageText";
+            this.imageText.Size = new System.Drawing.Size(111, 20);
+            this.imageText.TabIndex = 23;
             // 
-            // button2
+            // chooseImageButton
             // 
-            this.button2.Location = new System.Drawing.Point(647, 262);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "Просмотр";
-            this.button2.UseVisualStyleBackColor = true;
+            this.chooseImageButton.Location = new System.Drawing.Point(647, 262);
+            this.chooseImageButton.Name = "chooseImageButton";
+            this.chooseImageButton.Size = new System.Drawing.Size(75, 23);
+            this.chooseImageButton.TabIndex = 24;
+            this.chooseImageButton.Text = "Просмотр";
+            this.chooseImageButton.UseVisualStyleBackColor = true;
+            this.chooseImageButton.Click += new System.EventHandler(this.chooseImageButton_Click);
             // 
             // label12
             // 
@@ -270,12 +271,12 @@
             this.label12.TabIndex = 25;
             this.label12.Text = "Дата рождения";
             // 
-            // textBox8
+            // birthdayText
             // 
-            this.textBox8.Location = new System.Drawing.Point(611, 302);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(111, 20);
-            this.textBox8.TabIndex = 26;
+            this.birthdayText.Location = new System.Drawing.Point(611, 302);
+            this.birthdayText.Name = "birthdayText";
+            this.birthdayText.Size = new System.Drawing.Size(111, 20);
+            this.birthdayText.TabIndex = 26;
             // 
             // label13
             // 
@@ -287,22 +288,23 @@
             this.label13.TabIndex = 27;
             this.label13.Text = "Страна";
             // 
-            // comboBox1
+            // countryBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(611, 331);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 21);
-            this.comboBox1.TabIndex = 28;
+            this.countryBox.FormattingEnabled = true;
+            this.countryBox.Location = new System.Drawing.Point(611, 331);
+            this.countryBox.Name = "countryBox";
+            this.countryBox.Size = new System.Drawing.Size(136, 21);
+            this.countryBox.TabIndex = 28;
             // 
-            // button3
+            // regButton
             // 
-            this.button3.Location = new System.Drawing.Point(306, 350);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(98, 32);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "Регистрация";
-            this.button3.UseVisualStyleBackColor = true;
+            this.regButton.Location = new System.Drawing.Point(306, 350);
+            this.regButton.Name = "regButton";
+            this.regButton.Size = new System.Drawing.Size(98, 32);
+            this.regButton.TabIndex = 29;
+            this.regButton.Text = "Регистрация";
+            this.regButton.UseVisualStyleBackColor = true;
+            this.regButton.Click += new System.EventHandler(this.regButton_Click);
             // 
             // button4
             // 
@@ -313,35 +315,35 @@
             this.button4.Text = "Отмена";
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // genderBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(148, 279);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(151, 21);
-            this.comboBox2.TabIndex = 31;
+            this.genderBox.FormattingEnabled = true;
+            this.genderBox.Location = new System.Drawing.Point(148, 279);
+            this.genderBox.Name = "genderBox";
+            this.genderBox.Size = new System.Drawing.Size(151, 21);
+            this.genderBox.TabIndex = 31;
             // 
             // RacerRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.genderBox);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.regButton);
+            this.Controls.Add(this.countryBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.birthdayText);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.chooseImageButton);
+            this.Controls.Add(this.imageText);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.surnameText);
+            this.Controls.Add(this.nameText);
+            this.Controls.Add(this.repeatPasswordText);
+            this.Controls.Add(this.passwordText);
+            this.Controls.Add(this.emailText);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
@@ -378,21 +380,21 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox emailText;
+        private System.Windows.Forms.TextBox passwordText;
+        private System.Windows.Forms.TextBox repeatPasswordText;
+        private System.Windows.Forms.TextBox nameText;
+        private System.Windows.Forms.TextBox surnameText;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox imageText;
+        private System.Windows.Forms.Button chooseImageButton;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox birthdayText;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox countryBox;
+        private System.Windows.Forms.Button regButton;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox genderBox;
     }
 }
